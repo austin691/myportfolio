@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Animate.css Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        .bg-color {
+            background: #eafefe;
+        }
+        
+        .nav-color {
+            background: rgba(6, 12, 22, 0.989) !important;
+        }
+    </style>
+</head>
+
+<body class="" id="bodyTg">
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand text-danger" href="#home">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" aria-current="page" href="#skill">skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" aria-current="page" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" aria-current="page" href="#members">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" id="dkBtn"><i class="fa-solid fa-moon fs-5 text-lg-start"></i></a>
+                        <a class="nav-link text-danger d-none" id="ltBtn"><i class="fa-regular fa-moon fs-5 text-lg-start"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- home section start -->
+    <section id="home">
+        <div class="container-lg px-5">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <img src="image/profile.jpg" class="rounded-circle shadow" style="width: 250px; height: 250px;">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-first">
+                    <h5 class="text-muted fs-6 txt-white">Hello I'm</h5>
+                    <h2 class="text-danger fw-bold fs-2 text-uppercase me-2">backend developer
+                        <span class="fw-bold text-danger fs-6 align-middle">( <i class="fa-brands fa-laravel fw-bold"></i> LARAVEL )</span>
+                    </h2>
+                    <!-- <div class="d-flex align-items-center">
+                        <h2 class="text-danger fw-bold fs-2 text-uppercase me-2">backend developer</h2>
+                        <span class="fw-bold text-danger">( <i class="fa-brands fa-laravel fw-bold"></i> LARAVEL )</span>
+                    </div> -->
+                    <h4 class="fw-bold fs-6 txt-white">Wai Zin Kyaw</h4>
+                    <p class="text-muted mt-3 txt-white">
+                        Extensive hands-on experience in developing feature-rich web applications using the Laravel framework. Proficient in harnessing Laravel's powerful features, including Eloquent ORM, Blade templating, and Artisan commands, to create elegant and efficient
+                        solutions. Adept at both front-end and back-end development, collaborating seamlessly to integrate visually appealing user interfaces with robust server-side logic. Proficient in front-end technologies such as HTML, CSS, JavaScript,
+                        and popular frameworks to deliver seamless user experiences. Strong command over database management, specializing in MySQL and utilizing Laravel migrations for version control. Implementing efficient database queries, indexing
+                        strategies, and ensuring data integrity for optimal application performance.Proven track record in designing and implementing RESTful APIs, facilitating smooth communication between different components of web applications. Ensuring
+                        API security and adhering to industry best practices for seamless integration with external services. Proficient in server-side scripting with Laravel, configuring server environments, and ensuring the smooth deployment of applications.
+                        Implementing automation tools for deployment processes, optimizing server configurations, and maintaining a secure and scalable server environment.
+                    </p>
+                    <button class="btn btn-danger text-white mt-1 px-4 animate__animated" id="myBtn">My Work</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- skill section start -->
+    <section id="skill">
+        <div class="container-lg my-5 px-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8">
+                    <div class="text-center">
+                        <h2 class="fw-bold fs-2 txt-white">What <span class="text-danger">I Do ?</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <div class="shadow-sm text-center bg-white p-2 txt-white">
+                        <div class=""><i class="fa-solid fa-code text-danger fs-1 my-4 mt-4"></i></div>
+                        <div class=" mb-3">
+                            <h4 class="fw-bold fs-5">Web Development</h4>
+                        </div>
+                        <div>
+                            <p class="text-muted ">Actively seek opportunities for learning and growth, staying abreast of the latest web development technologies and trends. Engage with online courses, tutorials, and industry forums to expand my knowledge and skill set. Take
+                                initiative in participating in real-world projects, both independently and as part of a team, to gain practical experience. Actively contribute to open-source projects and collaborate with experienced developers to enhance
+                                my skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <div class="shadow-sm text-center bg-white p-2 txt-white">
+                        <div class=""><i class="fa-solid fa-lightbulb text-danger fs-1 my-4 mt-4"></i></div>
+                        <div class=" mb-3">
+                            <h4 class="fw-bold fs-5">Creative Idea</h4>
+                        </div>
+                        <div>
+                            <p class="text-muted ">Utilize creative thinking to design and implement user interfaces that prioritize an exceptional user experience. Combine technical proficiency with a keen eye for design to create visually appealing and intuitive web applications.
+                                Approach problem-solving with a creative mindset, exploring unconventional solutions to technical challenges. Integrate imaginative problem-solving techniques to optimize code efficiency and enhance overall system performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <div class="shadow-sm text-center bg-white p-2 txt-white">
+                        <div class=""><i class="fa-solid fa-server text-danger fs-1 my-4 mt-4"></i></div>
+                        <div class=" mb-3">
+                            <h4 class="fw-bold fs-5">Server Side</h4>
+                        </div>
+                        <div>
+                            <p class="text-muted ">Expertise in designing, implementing, and maintaining MySQL databases for Laravel applications. Proficient in database normalization, indexing, and query optimization to enhance performance. Skillful implementation of Laravel's
+                                Eloquent ORM for seamless interaction with databases. Utilize Eloquent relationships to model complex data structures and ensure efficient data retrieval.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skill section end -->
+
+    <!-- about section start -->
+    <section id="about">
+        <div class="container-lg px-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8">
+                    <div class="text-center">
+                        <h2 class="fw-bold fs-2 txt-white">About <span class="text-danger">Me</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <p class="text-muted mt-3 txt-white row"> -->
+            <div class="row justify-content-center mb-5">
+                <div class="mb-2">
+                    <i class="fw-bold">Key responsibilities</i>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <ol>
+                            <li><em class="fw-bold">Laravel Development:</em> As a Laravel developer, my primary responsibility is to design, develop, and maintain web applications using the Laravel framework. This includes understanding project requirements
+                                and implementing robust,scalable solutions.
+                            </li>
+                            <li><em class="fw-bold">Code Writing and Optimization:</em> I can write clean, efficient, and well-documented code and ptimize existing code for improved performance and maintainability and follow best practices and coding standards.</li>
+                            <li><em class="fw-bold">Database Management:</em> I can design and manage databases using Laravel's Eloquent ORM and ensure efficient database queries, indexing, and normalization. Proficiency in working with MySQL or other relational
+                                databases is crucial.</li>
+                            <li><em class="fw-bold">API Development:</em> Ican develop and maintain RESTful APIs for seamless communication between different parts of the application or with external services and ensure API security and adherence to industry
+                                standards.
+                            </li>
+                            <li><em class="fw-bold">Front-end Integration:</em> I can collaborate with front-end developers to integrate server-side logic with user interfaces and familiarity with front-end technologies such as Blade templating engine, JavaScript,
+                                HTML, and CSS is essential.
+                            </li>
+                            <li><em class="fw-bold">Version Control:</em> I can use version control systems, such as Git, to manage and track changes in the codebase and collaborate effectively with team members using platforms like GitHub.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <ol start="7">
+                            <li><em class="fw-bold">Testing and Debugging:</em> I can conduct thorough testing of applications, including unit testing, integration testing, and end-to-end testing and debug and resolve issues promptly to ensure a stable and
+                                error-free application.
+                            </li>
+                            <li><em class="fw-bold">Security:</em> Implement security best practices to safeguard applications from common web vulnerabilities. Stay updated on Laravel security updates and apply them as needed.</li>
+                            <li><em class="fw-bold">Performance Optimization:</em> I can identify and address performance bottlenecks in the application and implement caching strategies, optimize database queries, and utilize Laravel features for improved
+                                speed and efficiency.
+                            </li>
+                            <li><em class="fw-bold">Documentation:</em> I can create and maintain comprehensive documentation for the codebase, APIs, and any custom packages or libraries developed. Documentation can be clear, concise, and accessible to other
+                                team members.</li>
+                            <li><em class="fw-bold">Collaboration:</em> I can work collaboratively with cross-functional teams, including designers, front-end developers, and other stakeholders and participate in code reviews and provide constructive feedback.</li>
+                            <li><em class="fw-bold">Continuous Learning:</em> I can stay abreast of Laravel and PHP updates, industry trends, and emerging technologies. Continuously enhance my skills and contribute to the overall improvement of the development
+                                team.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!-- </p> -->
+
+            <div class="row my-3">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <h3 class="fw-bold fs-4 txt-white">Freelancer</h3>
+                    </div>
+                    <div class="mb-5">
+                        <p class="text-muted txt-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut a amet quasi in molestias distinctio quae commodi qui dicta officiis excepturi veritatis beatae dolor, dolorum debitis, dolores incidunt totam pariatur!</p>
+                    </div>
+                    <div class="d-flex justify-content-evenly text-center text-uppercase mb-5">
+                        <div>
+                            <h2 class="fw-bold fs-4 txt-white">100+</h2><small class="text-muted txt-white">project completed</small></div>
+                        <div>
+                            <h2 class="fw-bold fs-4 txt-white">90+</h2><small class="text-muted txt-white">happy clients</small></div>
+                        <div>
+                            <h2 class="fw-bold fs-4 txt-white">95+</h2><small class="text-muted txt-white">postive reviews</small></div>
+                    </div>
+                    <div class="d-flex mt-4 align-items-center mb-5">
+                        <button class="btn btn-danger text-white px-3 me-3 animate__animated" id="downCvBtn">Download CV</button>
+                        <div>
+                            <a href="https://www.facebook.com/profile.php?id=100070448810034" target="_blank" title="facebook"><i class="text-danger me-2 fa-brands fs-5 fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/WKyaw97286" target="_blank" title="twitter"><i class="text-danger me-2 fa-brands fs-5 fa-twitter"></i></a>
+                            <a href="https://t.me/wzk77" target="_blank" title="telegram"><i class="text-danger me-2 fa-brands fs-5 fa-telegram"></i></a>
+                            <a href="https://www.linkedin.com/in/wai-zin-kyaw-0164b527a/" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin me-2 text-danger fs-5"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="mb-5">
+                        <h5 class="text-uppercase txt-white">html</h5>
+                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 3px">
+                            <div class="progress-bar bg-danger" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <h5 class="text-uppercase txt-white">css / bootstrap</h5>
+                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 3px">
+                            <div class="progress-bar bg-danger" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <h5 class="text-uppercase txt-white">javascript / jquery / vue</h5>
+                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 3px">
+                            <div class="progress-bar bg-danger" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <h5 class="text-uppercase txt-white">PHP / LARAVEL</h5>
+                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 3px">
+                            <div class="progress-bar bg-danger" style="width: 94%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <h5 class="text-uppercase txt-white">api && db => phpmyadmin</h5>
+                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 3px">
+                            <div class="progress-bar bg-danger" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section end -->
+
+    <!-- project section start -->
+    <section id="project">
+        <div class="container-lg px-5">
+            <div class="row">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-8">
+                        <div class="text-center">
+                            <h2 class="fw-bold fs-2 txt-white">Latest <span class="text-danger">Projects</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <div class="mb-3">
+                        <img style="width: 100%; height: 320px;" class="img-thumbnail" src="image/30-Project-Plan-Templates-Examples-to-Visualize-Your-Strategy-Blog-Header.png" alt="">
+                    </div>
+                    <h4 class="txt-white">Admin Dashboard</h4>
+                    <a href="" class="text-danger text-decoration-none fw-bold">Live Demo</a>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="mb-3">
+                        <img style="width: 100%; height: 320px;" class="img-thumbnail" src="image/download.jpg" alt="">
+                    </div>
+                    <h4 class="txt-white">Admin Dashboard</h4>
+                    <a href="" class="text-danger text-decoration-none fw-bold">Live Demo</a>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="mb-3">
+                        <img style="width: 100%; height: 320px;" class="img-thumbnail" src="image/images (1).jpg" alt="">
+                    </div>
+                    <h4 class="txt-white">Admin Dashboard</h4>
+                    <a href="" class="text-danger text-decoration-none fw-bold">Live Demo</a>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="mb-3">
+                        <img style="width: 100%; height: 320px;" class="img-thumbnail" src="image/images (2).jpg" alt="">
+                    </div>
+                    <h4 class="txt-white">Admin Dashboard</h4>
+                    <a href="" class="text-danger text-decoration-none fw-bold">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project section end -->
+
+    <!-- freelancer projects start -->
+    <section class="bg-danger p-5">
+        <div class="container-lg">
+            <div class="row justify-content-center text-white">
+                <div class="col-md-8 text-center">
+                    <p class=" fs-5">Do You Have Any Projects ?</p>
+                    <h4 class="fs-2 my-4">I'm Available For Freelancer Projects</h4>
+                    <button class=" btn btn-outline-light px-3">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- freelancer projects end -->
+
+    <!-- member section start -->
+    <section id="members">
+        <div class="container-lg px-5 my-5">
+            <div class="row">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-8">
+                        <div class="text-center">
+                            <h2 class="fw-bold fs-2 txt-white">Our Team <span class="text-danger">Members</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner shadow-sm bg-light">
+                            <div class="carousel-item px-4 pt-4 pb-5 bg-light text-dark active">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <img src="image/profile.jpg" style="width: 60px; height: 60px;" class="rounded-circle">
+                                    </div>
+                                    <div class="">
+                                        <strong>Kyaw Kyaw</strong>
+                                        <small class="text-muted d-block">Senior Developer</small>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nesciunt natus facere, aliquam dicta officiis omnis? Laboriosam maiores consequatur vel quos placeat ab, adipisci aliquid porro odio soluta ullam voluptatem.</p>
+                                </div>
+                                <div class="">
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item px-4 pt-4 pb-5 bg-light text-dark text-dark ">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <img src="image/profile.jpg" style="width: 60px; height: 60px;" class="rounded-circle">
+                                    </div>
+                                    <div class="">
+                                        <strong>Kyaw Kyaw</strong>
+                                        <small class="text-muted d-block">Senior Developer</small>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nesciunt natus facere, aliquam dicta officiis omnis? Laboriosam maiores consequatur vel quos placeat ab, adipisci aliquid porro odio soluta ullam voluptatem.</p>
+                                </div>
+                                <div class="">
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item px-4 pt-4 pb-5 bg-light text-dark ">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <img src="image/profile.jpg" style="width: 60px; height: 60px;" class="rounded-circle">
+                                    </div>
+                                    <div class="">
+                                        <strong>Kyaw Kyaw</strong>
+                                        <small class="text-muted d-block">Senior Developer</small>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nesciunt natus facere, aliquam dicta officiis omnis? Laboriosam maiores consequatur vel quos placeat ab, adipisci aliquid porro odio soluta ullam voluptatem.</p>
+                                </div>
+                                <div class="">
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                    <i class="fa-solid fa-star text-danger"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- member section end -->
+
+    <!-- contact section start -->
+    <section id="contact">
+        <div class="container-lg px-5">
+            <div class="row">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-8">
+                        <div class="text-center">
+                            <h2 class="fw-bold fs-2 txt-white">Contact <span class="text-danger">Me</span></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 d-flex mb-4 justify-content-center">
+                        <div class="">
+                            <div class="d-flex mb-4">
+                                <div class="me-3">
+                                    <i class="fa-solid fa-phone me-2 text-danger fs-5"></i>
+                                </div>
+                                <div class="txt-white">
+                                    <h5>Phone</h5>
+                                    <span>09778529216</span>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4">
+                                <div class="me-3">
+                                    <i class="fa-solid fa-envelope me-2 text-danger fs-5"></i>
+                                </div>
+                                <div class="txt-white">
+                                    <h5>Email</h5>
+                                    <span>www.wzk77777777@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4">
+                                <div class="me-3">
+                                    <i class="fa-solid fa-map-location-dot me-2 text-danger fs-5"></i>
+                                </div>
+                                <div class="txt-white">
+                                    <h5>Address</h5>
+                                    <span>Yangon</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 justify-content-center">
+                        <div class="form-contact">
+                            <!-- <form action=""> -->
+                            <div class="d-md-flex">
+                                <input type="text" class="form-control border-0 mb-3 me-2" placeholder="Your Name">
+                                <input type="email" class="form-control border-0 mb-3" placeholder="Your Email">
+                            </div>
+                            <input type="text" class="form-control border-0 mb-3" placeholder="Subject">
+                            <textarea cols="30" rows="10" class="form-control border-0 mb-3" placeholder="Your Message"></textarea>
+                            <button class="btn btn-danger text-white px-3 animate__animated" id="sendBtn">Send Message</button>
+                            <!-- </form> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+    <section class="bg-dark txt-white text-white mt-4">
+        <div class="container-lg p-3 d-flex justify-content-center align-items-center">
+            <div class="col-md-8 text-center">
+                <small class="text-capitalize">we learn, we share, we code | this laboratory is for all coders</small>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
+</body>
+
+<!-- Bootstrap Link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>
+    let navColor = document.getElementsByTagName('nav')[0];
+    let bdBtn = document.getElementById('bodyTg');
+    let dkBtn = document.getElementById('dkBtn');
+    let ltBtn = document.getElementById('ltBtn');
+
+    // home section
+    let txtWhite = document.querySelectorAll('.txt-white')[0];
+    let txtWhite1 = document.querySelectorAll('.txt-white')[1];
+    let txtWhite2 = document.querySelectorAll('.txt-white')[2];
+
+    // skill section
+    let txtWhite3 = document.querySelectorAll('.txt-white')[3];
+    let txtWhite4 = document.querySelectorAll('.txt-white')[4];
+    let txtWhite5 = document.querySelectorAll('.txt-white')[5];
+    let txtWhite6 = document.querySelectorAll('.txt-white')[6];
+
+    // about section
+    let txtWhite7 = document.querySelectorAll('.txt-white')[7];
+    let txtWhite8 = document.querySelectorAll('.txt-white')[8];
+    let txtWhite9 = document.querySelectorAll('.txt-white')[9];
+    let txtWhite10 = document.querySelectorAll('.txt-white')[10];
+    let txtWhite11 = document.querySelectorAll('.txt-white')[11];
+    let txtWhite12 = document.querySelectorAll('.txt-white')[12];
+    let txtWhite13 = document.querySelectorAll('.txt-white')[13];
+    let txtWhite14 = document.querySelectorAll('.txt-white')[14];
+    let txtWhite15 = document.querySelectorAll('.txt-white')[15];
+    let txtWhite16 = document.querySelectorAll('.txt-white')[16];
+    let txtWhite17 = document.querySelectorAll('.txt-white')[17];
+    let txtWhite18 = document.querySelectorAll('.txt-white')[18];
+    let txtWhite19 = document.querySelectorAll('.txt-white')[19];
+    let txtWhite20 = document.querySelectorAll('.txt-white')[20];
+
+    // project section
+    let txtWhite21 = document.querySelectorAll('.txt-white')[21];
+    let txtWhite22 = document.querySelectorAll('.txt-white')[22];
+    let txtWhite23 = document.querySelectorAll('.txt-white')[23];
+    let txtWhite24 = document.querySelectorAll('.txt-white')[24];
+    let txtWhite25 = document.querySelectorAll('.txt-white')[25];
+
+    // member section
+    let txtWhite26 = document.querySelectorAll('.txt-white')[26];
+
+    // contact section
+    let txtWhite27 = document.querySelectorAll('.txt-white')[27];
+    let txtWhite28 = document.querySelectorAll('.txt-white')[28];
+    let txtWhite29 = document.querySelectorAll('.txt-white')[29];
+    let txtWhite30 = document.querySelectorAll('.txt-white')[30];
+
+    // footer section
+    let txtWhite31 = document.querySelectorAll('.txt-white')[31];
+
+    let myBtn = document.getElementById('myBtn');
+    let downCvBtn = document.getElementById('downCvBtn');
+    let sendBtn = document.getElementById('sendBtn');
+
+    dkBtn.addEventListener('click', function() {
+        ltBtn.classList.remove('d-none');
+        dkBtn.classList.add('d-none');
+        navColor.classList.add('nav-color');
+
+        bdBtn.classList.remove('bg-light');
+        bdBtn.classList.add('bg-dark');
+
+        // home section
+        txtWhite.classList.remove('text-muted');
+        txtWhite.classList.add('text-white-50');
+        txtWhite1.classList.remove('text-muted');
+        txtWhite1.classList.add('text-white');
+        txtWhite2.classList.remove('text-muted');
+        txtWhite2.classList.add('text-white-50');
+
+        // skill section
+        txtWhite3.classList.remove('text-muted');
+        txtWhite3.classList.add('text-white');
+        txtWhite4.classList.remove('bg-white');
+        txtWhite4.classList.add('bg-color');
+        txtWhite5.classList.remove('bg-white');
+        txtWhite5.classList.add('bg-color');
+        txtWhite6.classList.remove('bg-white');
+        txtWhite6.classList.add('bg-color');
+
+        // about section
+        txtWhite7.classList.remove('text-muted');
+        txtWhite7.classList.add('text-white');
+        txtWhite8.classList.remove('text-muted');
+        txtWhite8.classList.add('text-white');
+        txtWhite9.classList.remove('text-muted');
+        txtWhite9.classList.add('text-white-50');
+        txtWhite10.classList.remove('text-muted');
+        txtWhite10.classList.add('text-white');
+        txtWhite11.classList.remove('text-muted');
+        txtWhite11.classList.add('text-white-50');
+        txtWhite12.classList.remove('text-muted');
+        txtWhite12.classList.add('text-white');
+        txtWhite13.classList.remove('text-muted');
+        txtWhite13.classList.add('text-white-50');
+        txtWhite14.classList.remove('text-muted');
+        txtWhite14.classList.add('text-white');
+        txtWhite15.classList.remove('text-muted');
+        txtWhite15.classList.add('text-white-50');
+        txtWhite16.classList.remove('text-muted');
+        txtWhite16.classList.add('text-white');
+        txtWhite17.classList.remove('text-muted');
+        txtWhite17.classList.add('text-white');
+        txtWhite18.classList.remove('text-muted');
+        txtWhite18.classList.add('text-white');
+        txtWhite19.classList.remove('text-muted');
+        txtWhite19.classList.add('text-white');
+        txtWhite20.classList.add('text-white');
+
+        // project section
+        txtWhite21.classList.add('text-white');
+        txtWhite22.classList.add('text-white');
+        txtWhite23.classList.add('text-white');
+        txtWhite24.classList.add('text-white');
+        txtWhite25.classList.add('text-white');
+
+        // member section
+        txtWhite26.classList.add('text-white');
+
+        // contact section
+        txtWhite27.classList.add('text-white');
+        txtWhite28.classList.add('text-white');
+        txtWhite29.classList.add('text-white');
+        txtWhite30.classList.add('text-white');
+
+        // footer section
+        txtWhite31.classList.remove('bg-dark');
+        txtWhite31.classList.add('border-top');
+    });
+    ltBtn.addEventListener('click', function() {
+        ltBtn.classList.add('d-none')
+        dkBtn.classList.remove('d-none');
+        navColor.classList.remove('nav-color');
+
+        bdBtn.classList.add('bg-dark');
+        bdBtn.classList.remove('bg-light');
+
+        bdBtn.classList.add('bg-light');
+        bdBtn.classList.remove('bg-dark');
+
+        // home section
+        txtWhite.classList.add('text-muted');
+        txtWhite.classList.remove('text-white-50');
+        txtWhite1.classList.add('text-muted');
+        txtWhite1.classList.remove('text-white');
+        txtWhite2.classList.add('text-muted');
+        txtWhite2.classList.remove('text-white-50');
+
+        // skill section
+        txtWhite3.classList.add('text-muted');
+        txtWhite3.classList.remove('text-white');
+        txtWhite4.classList.add('bg-white');
+        txtWhite4.classList.remove('bg-color');
+        txtWhite5.classList.add('bg-white');
+        txtWhite5.classList.remove('bg-color');
+        txtWhite6.classList.add('bg-white');
+        txtWhite6.classList.remove('bg-color');
+
+        // about section
+        txtWhite7.classList.add('text-muted');
+        txtWhite7.classList.remove('text-white');
+        txtWhite8.classList.add('text-muted');
+        txtWhite8.classList.remove('text-white');
+        txtWhite9.classList.add('text-muted');
+        txtWhite9.classList.remove('text-white-50');
+        txtWhite10.classList.add('text-muted');
+        txtWhite10.classList.remove('text-white');
+        txtWhite11.classList.add('text-muted');
+        txtWhite11.classList.remove('text-white-50');
+        txtWhite12.classList.add('text-muted');
+        txtWhite12.classList.remove('text-white');
+        txtWhite13.classList.add('text-muted');
+        txtWhite13.classList.remove('text-white-50');
+        txtWhite14.classList.add('text-muted');
+        txtWhite14.classList.remove('text-white');
+        txtWhite15.classList.add('text-muted');
+        txtWhite15.classList.remove('text-white-50');
+        txtWhite16.classList.add('text-muted');
+        txtWhite16.classList.remove('text-white');
+        txtWhite17.classList.add('text-muted');
+        txtWhite17.classList.remove('text-white');
+        txtWhite18.classList.add('text-muted');
+        txtWhite18.classList.remove('text-white');
+        txtWhite19.classList.add('text-muted');
+        txtWhite19.classList.remove('text-white');
+        txtWhite20.classList.remove('text-white');
+
+        // project section
+        txtWhite21.classList.remove('text-white');
+        txtWhite22.classList.remove('text-white');
+        txtWhite23.classList.remove('text-white');
+        txtWhite24.classList.remove('text-white');
+        txtWhite25.classList.remove('text-white');
+
+        // member section
+        txtWhite26.classList.add('text-dark');
+        txtWhite26.classList.remove('text-white');
+
+        // contact section
+        txtWhite27.classList.remove('text-white');
+        txtWhite27.classList.add('text-dark');
+        txtWhite28.classList.remove('text-white');
+        txtWhite28.classList.add('text-dark');
+        txtWhite29.classList.remove('text-white');
+        txtWhite29.classList.add('text-dark');
+        txtWhite30.classList.remove('text-white');
+        txtWhite30.classList.add('text-dark');
+
+        // footer section
+        txtWhite31.classList.add('bg-dark');
+        txtWhite31.classList.remove('border-top');
+    });
+
+    myBtn.addEventListener('click', function() {
+        const currentAni = () => {
+            const currentAniPromise = new Promise((resolve, reject) => {
+                resolve("animate__bounce");
+            });
+            return currentAniPromise;
+        }
+
+        const delCurrentAni = () => {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve("animate__bounce")
+                }, 1000);
+            });
+        }
+
+        currentAni().then((currentData) => {
+            myBtn.classList.add(currentData);
+            delCurrentAni().then((delData) => {
+                myBtn.classList.remove(delData);
+            });
+        });
+    });
+
+    downCvBtn.addEventListener('click', function() {
+        const currentAni = () => {
+            const currentAniPromise = new Promise((resolve, reject) => {
+                resolve("animate__bounce");
+            });
+            return currentAniPromise;
+        }
+
+        const delCurrentAni = () => {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve("animate__bounce")
+                }, 1000);
+            });
+        }
+
+        currentAni().then((currentData) => {
+            downCvBtn.classList.add(currentData);
+            delCurrentAni().then((delData) => {
+                downCvBtn.classList.remove(delData);
+            });
+        });
+    })
+
+    sendBtn.addEventListener('click', function() {
+        const currentAni = () => {
+            const currentAniPromise = new Promise((resolve, reject) => {
+                resolve("animate__bounce");
+            });
+            return currentAniPromise;
+        }
+
+        const delCurrentAni = () => {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve("animate__bounce")
+                }, 1000);
+            });
+        }
+
+        currentAni().then((currentData) => {
+            sendBtn.classList.add(currentData);
+            delCurrentAni().then((delData) => {
+                sendBtn.classList.remove(delData);
+            });
+        });
+    })
+</script>
+
+</html>
